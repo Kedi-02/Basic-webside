@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Mikrodata">
+        <meta name="keywords" content="Mikrodata og Schema">
+        <link rel="stylesheet" href="gridstyle.css">     
+        <title>Mikrodata</title>
+
+    </head>
+    <body>
+        <div id="grid-container">
+            <header id="page-header">
+                <h1>Mikrodata</h1>
+                <h5>Arbeidkrav</h5>
+            </header>
+
+             <nav>
+                 <h2>Logo</h2>
+                 <a href=!#>Link</a>
+                 <a href=!#>Link</a>
+                 <a href=!#>Link</a>
+                 <a href="index.html">Hovdedside</a>
+                 <a href="html-skjemaer.html">HTML skjemaer</a>
+                 <a href="media-typer.html">Media typer</a>
+                 <a href="css-layout.html">CSS layouts</a>                
+                 <a href="responsiv-design.html">Responsiv design</a>
+                 <a href="SEO og teknisk implementa.html">SEo og teknisk implementasjon</a>
+                 <a href="tilgjengelig.html">Tilgjengeligheten av nettisden min</a>
+                 <a href="microdata.html">Mikrodata</a>
+                 <a href="cms.html">fordeler og ulemper med CMS</a>
+                 <a href="wordpress.html">Testing av wordpress</a>
+             </nav>
+            
+            <main>
+                <article>
+                    <header>
+                        <h3>Microdata</h3>
+                    </header>
+                    <p> Mikrodata kan bli brukt til å gi en bra opplevelse for brukeren, som kan skje ved at en søkemotor kan behandle microdata fra en side.
+                        Mikrodata gjør at det blir lettere å kommentere forsjkellige elementer av html enn ved bruk av RDFa for eksmepel.
+                    </p>
+
+                    <h3>Schema</h3>
+                    <p>
+                        Med schema, så kan det gjøre at noe blir mer spesifikt beskrevet i koden. Dette kan vise til at et sted kan det stå om noe for eksmepel.
+                        Her trenger vi tagger, for uten det, er ikke søkemotorene så nyttige. Et eksempel er ''itemtype='' også legge til en link.
+                        Dette besrkiver at det er en film, inne i i section. ''itemprop=writer'' Her skriver man inn skriveren. ''Itemprop=name'' Er tittelen.
+                        Dette gir generelt sett en bedre oversikt og et bra resultat for andre som søker på hva vi har skrevet hvor, i siden.
+                    </p>
+
+
+                    <!--I dag, brødsmulesti-->
+            <nav>
+                <ol id="breadcrumbs" itemscope
+                itemtype="https://schema.org/BreadcrumbList">
+
+                      <!--nummer 1 på bredcrumben min første li. span bruker vi for å ta tak i mindre deler tekst andre steder.span markerer små mengder tekst-->
+                      <!--scope-->
+                    <li itemprop="itemListElement" 
+                    itemscope itemtype="https://schema.org/ListItem">
+                        <a itemprop="item" href="index.html">
+                        <span itemprop="name">Hjem</span> </a>
+                        <meta itemprop="position" content="1">
+                    </li>
+ 
+                    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                        <a itemprop="item" href="#">
+                            <span itemprop="name">Oblig 4</span>
+                        </a>
+                        <meta itemprop="position" content="2">
+                    </li>
+
+                    <li itemprop="itemListElement" itemoscope itemtype="https://schema.org/ListItem">
+                        <a itemprop="item" href="html-skjemaer.html">
+                            <span itemprop="name">HTMLL skjema</span>
+                        </a>
+                        <meta itemprop="position" content="3">
+                      
+                    </li>
+
+                </ol>
+            </nav>
+                    
+                </article>
+                </main>
+                <aside>
+                    
+               
+        
+        
+                    <section id="rel-articles">
+                                                   
+                    </section>
+        
+                    
+                    
+            
+                </aside>
+    
+           
+            </div>
+    </body>
+    <footer>
+        kedikrasniqi@hotmail.com
+    </footer>
+</html>
